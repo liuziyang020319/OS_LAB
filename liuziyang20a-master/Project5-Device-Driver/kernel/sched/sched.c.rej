@@ -1,0 +1,12 @@
+--- kernel/sched/sched.c	2022-11-21 12:12:53.908107383 +0800
++++ kernel/sched/sched.c	2022-11-21 12:12:53.916107295 +0800
+@@ -29,6 +29,9 @@ void do_scheduler(void)
+     // TODO: [p2-task3] Check sleep queue to wake up PCBs
+ 
+ 
++    // TODO: [p5-task3] Check send/recv queue to unblock PCBs
++
++
+     // TODO: [p2-task1] Modify the current_running pointer.
+ 
+ 

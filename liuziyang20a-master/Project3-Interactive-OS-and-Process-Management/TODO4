@@ -1,0 +1,16 @@
+
+make clean
+make dirs
+make elf
+make asm
+cp createimage build/
+cd ./build && ./createimage --extended bootblock main print1 fly print2 lock1 lock2 && cd ..
+
+
+
+make clean
+make dirs
+make elf
+make asm
+cp createimage build/
+cd ./build && ./createimage --extended bootblock main print1 && cd ..

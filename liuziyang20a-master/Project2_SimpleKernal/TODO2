@@ -1,0 +1,2 @@
+add-symbol-file ./build/bootblock
+add-symbol-file ./build/lock2

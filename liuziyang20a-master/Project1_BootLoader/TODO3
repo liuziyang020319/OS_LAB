@@ -1,0 +1,6 @@
+gcc createimage.c -o createimage
+make clean
+make elf
+make asm
+cp createimage build/
+cd build && ./createimage --extended bootblock main bss auipc data 2048 --bat bat1 bat2 && cd ..
